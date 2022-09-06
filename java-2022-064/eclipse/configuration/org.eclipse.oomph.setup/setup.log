@@ -1,0 +1,45 @@
+[2022-09-05 15:35:58] Executing bootstrap tasks
+[2022-09-05 15:35:58] OpenJDK Runtime Environment 17.0.3+7
+[2022-09-05 15:35:58] Product org.eclipse.products.epp.package.java.2022-06
+[2022-09-05 15:35:58] Bundle org.eclipse.oomph.setup 1.24.0.v20220525-1027, build=5517, branch=ff2ccc003a1d8c4f5c15c95f48c5dbae54970054
+[2022-09-05 15:35:58] Bundle org.eclipse.oomph.setup.core 1.24.0.v20220601-1043, build=5517, branch=ff2ccc003a1d8c4f5c15c95f48c5dbae54970054
+[2022-09-05 15:35:58] Bundle org.eclipse.oomph.setup.p2 1.19.0.v20220607-1104, build=5517, branch=ff2ccc003a1d8c4f5c15c95f48c5dbae54970054
+[2022-09-05 15:35:58] Performing P2 Director (Eclipse IDE for Java Developers (2022-06) + JRE 17.0.4.1)
+[2022-09-05 15:35:58] Offline = false
+[2022-09-05 15:35:58] Mirrors = true
+[2022-09-05 15:35:58] Resolving 18 requirements from 4 repositories to C:\Users\Remakker\eclipse\java-2022-064\eclipse
+[2022-09-05 15:35:58] Requirement org.eclipse.equinox.p2.iu:org.eclipse.justj.openjdk.hotspot.jre.full.feature.group (filter=(|(&(osgi.arch=aarch64)(osgi.os=linux))(&(osgi.arch=aarch64)(osgi.os=macosx))(&(osgi.arch=x86_64)(osgi.os=linux))(&(osgi.arch=x86_64)(osgi.os=macosx))(&(osgi.arch=x86_64)(osgi.os=win32))))
+[2022-09-05 15:35:58] Requirement org.eclipse.equinox.p2.iu:epp.package.java [4.24.0,5.0.0) (filter=(|(&(osgi.arch=aarch64)(osgi.os=linux)(osgi.ws=gtk))(&(osgi.arch=aarch64)(osgi.os=macosx)(osgi.ws=cocoa))(&(osgi.arch=x86_64)(osgi.os=linux)(osgi.ws=gtk))(&(osgi.arch=x86_64)(osgi.os=macosx)(osgi.ws=cocoa))(&(osgi.arch=x86_64)(osgi.os=win32)(osgi.ws=win32))))
+[2022-09-05 15:35:58] Requirement org.eclipse.equinox.p2.iu:org.eclipse.platform.feature.group [4.24.0,5.0.0)
+[2022-09-05 15:35:58] Requirement org.eclipse.equinox.p2.iu:org.eclipse.rcp.feature.group [4.24.0,5.0.0)
+[2022-09-05 15:35:58] Requirement org.eclipse.equinox.p2.iu:org.eclipse.buildship.feature.group
+[2022-09-05 15:35:58] Requirement org.eclipse.equinox.p2.iu:org.eclipse.eclemma.feature.feature.group
+[2022-09-05 15:35:58] Requirement org.eclipse.equinox.p2.iu:org.eclipse.egit.feature.group
+[2022-09-05 15:35:58] Requirement org.eclipse.equinox.p2.iu:org.eclipse.epp.mpc.feature.group
+[2022-09-05 15:35:58] Requirement org.eclipse.equinox.p2.iu:org.eclipse.jdt.feature.group
+[2022-09-05 15:35:58] Requirement org.eclipse.equinox.p2.iu:org.eclipse.jgit.feature.group
+[2022-09-05 15:35:58] Requirement org.eclipse.equinox.p2.iu:org.eclipse.m2e.feature.feature.group
+[2022-09-05 15:35:58] Requirement org.eclipse.equinox.p2.iu:org.eclipse.m2e.lemminx.feature.feature.group
+[2022-09-05 15:35:58] Requirement org.eclipse.equinox.p2.iu:org.eclipse.m2e.logback.feature.feature.group
+[2022-09-05 15:35:58] Requirement org.eclipse.equinox.p2.iu:org.eclipse.mylyn.wikitext.editors_feature.feature.group
+[2022-09-05 15:35:58] Requirement org.eclipse.equinox.p2.iu:org.eclipse.tips.feature.feature.group
+[2022-09-05 15:35:58] Requirement org.eclipse.equinox.p2.iu:org.eclipse.tm.terminal.feature.feature.group
+[2022-09-05 15:35:58] Requirement org.eclipse.equinox.p2.iu:org.eclipse.wildwebdeveloper.xml.feature.feature.group
+[2022-09-05 15:35:58] Requirement org.eclipse.equinox.p2.iu:org.eclipse.oomph.setup.feature.group
+[2022-09-05 15:35:58] Repository https://download.eclipse.org/justj/jres/17/updates/release/latest
+[2022-09-05 15:35:58] Repository https://download.eclipse.org/technology/epp/packages/2022-06/202206091200
+[2022-09-05 15:35:58] Repository https://download.eclipse.org/releases/2022-06/202206151000
+[2022-09-05 15:35:58] Repository https://download.eclipse.org/oomph/updates/milestone/latest
+[2022-09-05 15:36:02] Calculating requirements and dependencies.
+[2022-09-05 15:36:03] Computing prerequisite plan
+[2022-09-05 15:36:06] Fetching compositeArtifacts.jar from https://download.eclipse.org/justj/jres/17/updates/release/latest/ (449B)
+[2022-09-05 15:36:07] Fetching artifacts.xml.xz from https://download.eclipse.org/justj/jres/17/updates/release/17.0.4.v20220903-1038/ (3.92kB)
+[2022-09-05 15:36:10] Fetching compositeArtifacts.jar from https://download.eclipse.org/oomph/updates/milestone/latest/ (445B)
+[2022-09-05 15:36:11] Fetching artifacts.xml.xz from https://download.eclipse.org/oomph/drops/milestone/S20220831-064737-1.26.0-RC1/ (20.85kB)
+[2022-09-05 15:36:11] Collecting 3 artifacts from https://download.eclipse.org/justj/jres/17/updates/release/latest
+[2022-09-05 15:36:12] Downloading org.eclipse.justj.openjdk.hotspot.jre.full
+[2022-09-05 15:36:12] Downloading org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64
+[2022-09-05 15:36:12] Fetching org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.4.v20220903-1038.jar from https://eclipse.c3sl.ufpr.br/justj/jres/17/updates/release/17.0.4.v20220903-1038/plugins/ (111.64MB)
+[2022-09-05 15:36:13] Fetching org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.4.v20220903-1038.jar from https://eclipse.c3sl.ufpr.br/justj/jres/17/updates/release/17.0.4.v20220903-1038/plugins/
+[2022-09-05 15:36:14] Fetching org.eclipse.justj.openjdk.hotspot.jre.full_17.0.4.v20220903-1038.jar from https://mirrors.xmission.com/eclipse/justj/jres/17/updates/release/17.0.4.v20220903-1038/features/ (23.27kB)
+[2022-09-05 15:36:15] Fetching org.eclipse.justj.openjdk.hotspot.jre.full_17.0.4.v20220903-1038.jar from https://eclipse.mirror.rafal.ca/justj/jres/17/updates/release/17.0.4.v20220903-1038/plugins/ (19.68kB)
